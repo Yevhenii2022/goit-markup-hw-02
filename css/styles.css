@@ -45,14 +45,15 @@ ul {
 
 .logo:hover,
 .logo:focus {
-	color: tomato;
+	color: teal;
 }
-.logo-span:hover, .logo-span:focus {
-	color: tomato;
+.logo-span:hover,
+.logo-span:focus {
+	color: teal;
 }
 
 /* Site nav */
-.site-nav a  {
+.site-nav a {
 	color: var(--title-text-color);
 	font-weight: 500;
 	font-size: 14px;
@@ -61,32 +62,108 @@ ul {
 }
 
 .nav-color a {
-  color: var(--hover-text-color);
+	color: var(--hover-text-color);
 }
 
 .site-nav a:hover,
 .site-nav a:focus {
-  color: teal;
+	color: teal;
 }
 
 .contacts a {
- color: var(--primery-text-color);
-  font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
+	color: var(--primery-text-color);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
 }
 
 .contacts-mail a {
-  color: var(--hover-text-color);
+	color: var(--hover-text-color);
 }
 
 .contacts a:hover,
 .contacts a:focus {
-  color: teal;
+	color: teal;
 }
 
 /* Hero */
 .hero {
-  background: var(--primery-bleck-color);
+	background: var(--primery-bleck-color);
+}
+
+.hero-title {
+	color: var(--hero-text-color);
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+}
+
+.hero-button {
+	color: var(--hero-text-color);
+	background-color: var(--hover-text-color);
+	font-family: inherit;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+}
+
+/* Work */
+.work {
+	background-color: var(--main-background-color);
+}
+
+.preference-title {
+	color: var(--title-text-color);
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+.work-title {
+  color: var(--title-text-color);
+ font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+}
+
+/* Our team */
+.team {
+  background-color: var(--section-background-color);
+}
+
+.team-color {
+  background-color: var(--hero-text-color);
+}
+
+.team-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+}
+
+.team-personal {
+  color: var(--title-text-color);
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+}
+
+.team-text {
+  color: var(--primery-text-color);
+ font-size: 16px;
+line-height: 1.19;
+text-align: center;
 }
