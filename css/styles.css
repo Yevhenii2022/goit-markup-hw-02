@@ -47,7 +47,7 @@ ul {
 .logo:focus {
 	color: tomato;
 }
-.logo-span:hover .logo-span:focus {
+.logo-span:hover, .logo-span:focus {
 	color: tomato;
 }
 
@@ -67,4 +67,26 @@ ul {
 .site-nav a:hover,
 .site-nav a:focus {
   color: teal;
+}
+
+.contacts a {
+ color: var(--primery-text-color);
+  font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+
+.contacts-mail a {
+  color: var(--hover-text-color);
+}
+
+.contacts a:hover,
+.contacts a:focus {
+  color: teal;
+}
+
+/* Hero */
+.hero {
+  background: var(--primery-bleck-color);
 }
