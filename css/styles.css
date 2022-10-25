@@ -15,8 +15,7 @@ body {
 	background-color: var(--hero-text-color);
 	color: var(--primery-text-color);
 	font-family: "Roboto", sans-serif;
-	font-size: 14px;
-	line-height: 1.71;
+	font-size: 14px;	
 	letter-spacing: 0.03em;
 }
 
@@ -34,20 +33,12 @@ ul {
 	font-family: "Raleway", sans-serif;
 	font-weight: 700;
 	font-size: 26px;
+	line-height: calc(31/26);
 	line-height: 1.19;
 }
 
 .logo-span {
 	color: var(--logo-bleck-color);
-}
-
-.logo:hover,
-.logo:focus {
-	color: teal;
-}
-.logo-span:hover,
-.logo-span:focus {
-	color: teal;
 }
 
 .logo-footer {
@@ -63,13 +54,9 @@ ul {
 	letter-spacing: 0.02em;
 }
 
-.nav-color a {
-	color: var(--hover-text-color);
-}
-
 .site-nav a:hover,
 .site-nav a:focus {
-	color: teal;
+	color: var(--hover-text-color);
 }
 
 .contacts a {
@@ -80,13 +67,9 @@ ul {
 	letter-spacing: 0.02em;
 }
 
-.contacts-mail a {
-	color: var(--hover-text-color);
-}
-
 .contacts a:hover,
 .contacts a:focus {
-	color: teal;
+	color: var(--hover-text-color);
 }
 
 /* Hero */
@@ -113,7 +96,8 @@ ul {
 
 .button:hover,
 .button:focus {
-	color: teal;
+	color: var(--hero-text-color);
+	background-color: var(--hover-text-color);
 }
 
 .hero-button {
@@ -137,15 +121,6 @@ ul {
 	text-align: center;
 }
 
-.first-button {
-	color: var(--hero-text-color);
-	background-color: var(--hover-text-color);
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.62;
-	text-align: center;
-}
-
 /* Work */
 .work {
 	background-color: var(--main-background-color);
@@ -158,6 +133,10 @@ ul {
 	line-height: 1.14;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
+}
+
+.preference-text {
+	line-height: calc(24/14);
 }
 
 .work-title {
@@ -216,9 +195,14 @@ ul {
 	color: var(--address-text-color);
 }
 
+.location:hover,
+.location:focus {
+	color: var(--hover-text-color);
+}
+
 .contacts-footer:hover,
 .contacts-footer:focus {
-	color: teal;
+	color: var(--hover-text-color);
 }
 
 /* Portfolio page */
